@@ -1,0 +1,7 @@
+{
+  "/imoveis*": "/imovels$1",
+  "/tipos*": "/tipoImovels$1",
+  "/categorias*": "/categoriaImovels$1",
+  "/opcionais*": "/opcionals$1",
+  "/imovelOpcionais*": "/imovelOpcionals$1"
+}

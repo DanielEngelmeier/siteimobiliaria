@@ -1,0 +1,76 @@
+{
+  "imovels": [
+    {
+      "id": 1,
+      "titulo": "Casa com Quintal",
+      "nomeProprietario": "João Silva",
+      "telefoneProprietario": "11999999999",
+      "cpfProprietario": "12345678900",
+      "cep": "06020194",
+      "endereco": "Avenida Manuel Pedro Pimentel",
+      "numero": 200,
+      "complemento": "Apto 45",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "valor": 350000,
+      "area": 120,
+      "dormitorios": 3,
+      "banheiros": 2,
+      "vagas": 1,
+      "suites": 1,
+      "tipoImovelId": 1,
+      "ativo": true,
+      "createdAt": "2026-01-20T12:00:00.000Z",
+      "updatedAt": "2026-01-28T18:12:36.670Z"
+    }
+  ],
+  "opcionals": [
+    {
+      "id": 1,
+      "nome": "Piscina"
+    },
+    {
+      "id": 2,
+      "nome": "Churrasqueira"
+    },
+    {
+      "id": 3,
+      "nome": "Academia"
+    }
+  ],
+  "imovelOpcionals": [
+    {
+      "id": 2,
+      "imovelId": 1,
+      "opcionalId": 2
+    }
+  ],
+  "categoriaImovels": [
+    {
+      "id": 1,
+      "nome": "Casa"
+    },
+    {
+      "id": 2,
+      "nome": "Apartamento"
+    }
+  ],
+  "tipoImovels": [
+    {
+      "id": 1,
+      "nome": "Apartamento",
+      "categoriaImovelId": 2
+    },
+    {
+      "id": 2,
+      "nome": "Condomínio",
+      "categoriaImovelId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Sobrado",
+      "categoriaImovelId": 1
+    }
+  ]
+}

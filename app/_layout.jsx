@@ -17,9 +17,10 @@ export default function RootLayout() {
       />
 
       <Drawer.Screen
-        name="imoveis/index"
+        name="imoveis"
         options={{
-          title: "Cadastro de Imóveis",
+          title: "Imóveis",
+          headerTitle: "",
         }}
       />
     </Drawer>
