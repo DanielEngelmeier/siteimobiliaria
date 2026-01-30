@@ -83,8 +83,7 @@ export default function ListaImoveis() {
   const renderItem = ({ item }) => (
     <TouchableOpacity
       style={styles.card}
-      onPress={() => router.push(`/imoveis/${item.id}`)}
-      onLongPress={() =>
+      onPress={() =>
         router.push({
           pathname: "/imoveis/form",
           params: { id: String(item.id) },

@@ -23,6 +23,30 @@
       "ativo": true,
       "createdAt": "2026-01-20T12:00:00.000Z",
       "updatedAt": "2026-01-28T18:12:36.670Z"
+    },
+    {
+      "titulo": "Apartamento completo",
+      "nomeProprietario": "Aline Jorge",
+      "telefoneProprietario": "11977664433",
+      "cpfProprietario": "33322211188",
+      "cep": "06330000",
+      "endereco": "Estrada do copiuva",
+      "numero": 1501,
+      "complemento": "Bloco Sol ap 65",
+      "bairro": "Vila da oportunidade",
+      "cidade": "Carapicuiba",
+      "uf": "SP",
+      "valor": 250000,
+      "area": 50,
+      "dormitorios": 2,
+      "banheiros": 1,
+      "vagas": 1,
+      "suites": 0,
+      "tipoImovelId": 1,
+      "ativo": true,
+      "createdAt": "2026-01-28T23:44:48.885Z",
+      "updatedAt": "2026-01-28T23:51:36.339Z",
+      "id": 2
     }
   ],
   "opcionals": [
@@ -44,6 +68,16 @@
       "id": 2,
       "imovelId": 1,
       "opcionalId": 2
+    },
+    {
+      "imovelId": 2,
+      "opcionalId": 2,
+      "id": 3
+    },
+    {
+      "imovelId": 2,
+      "opcionalId": 3,
+      "id": 4
     }
   ],
   "categoriaImovels": [
